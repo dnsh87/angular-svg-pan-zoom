@@ -7,7 +7,7 @@ import { Content } from './content';
   template: `
 <div class="thumbnail-container">
   <div>
-    <img src="https://ecatalog.vecv.net/ecatalogueVECV/sol_dealer/dealer/svgs/4020-21-010-0004.svg" class="thumbnail" [attr.tileId]="content.id">
+    <img [src]="content.thumbnail" class="thumbnail" [attr.tileId]="content.id">
   </div>
 </div>
   `,
